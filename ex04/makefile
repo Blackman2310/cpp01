@@ -1,10 +1,12 @@
-NAME        = horde
+NAME      = Sed
+
 CC        = c++
+
 CFLAGS    = -Wall -Wextra -Werror -std=c++98 -g 
 
-SRC         = main.cpp
+SRC       = main.cpp
 
-OBJ         = $(SRC:.cpp=.o)
+OBJ       = $(SRC:.cpp=.o)
 
 all: $(NAME)
 

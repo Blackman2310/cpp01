@@ -1,8 +1,8 @@
-NAME        = BRAIN
+NAME        = harl
 CC        = c++
 CFLAGS    = -Wall -Wextra -Werror -std=c++98
 
-SRC         = main.cpp
+SRC         = main.cpp Harl.cpp
 
 OBJ         = $(SRC:.cpp=.o)
 
